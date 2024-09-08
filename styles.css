@@ -1,2 +1,17 @@
+div {
+	margin: 20px 0;
+}
 
-/* Your CSS Code here. */
+button, span, input, cite, code, sup, sub {
+      border: 1px solid blue;
+      padding: 5px;
+      margin-right: 10px;
+      display: inline-block;
+}
+    
+div > div, p, h1 {
+      border: 1px solid red;
+      padding: 10px;
+      margin: 5px 0;
+      display: block;
+}
